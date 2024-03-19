@@ -15,11 +15,11 @@ print("A media dos três números é: ", (numero1_ex2 + numero3_ex2 + numero2_ex
 
 valor_ex3 = float(input("Insira o preço da sua compra(Somente valor numérico): "))
 
-if valor_ex3<9.99:
+if valor_ex3<10:
     desconto = int(0)
-elif valor_ex3<99.99:
+elif valor_ex3<100:
     desconto = int(5)
-elif valor_ex3<499.99:
+elif valor_ex3<500:
     desconto = int(10)
 else:
     desconto = int(15)
